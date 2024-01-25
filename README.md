@@ -1,4 +1,4 @@
-# Frontend Mentor - Age calculator app solution
+# Frontend Mentor - Solução do Age calculator app
 
 -- EN --
 This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
@@ -42,16 +42,16 @@ Usuários devem ser capazes de:
 
 ### Screenshot
 
-![./screenshots/screenshot.png]
+![](./screenshots/screenshot.png)
 
 ### Links
 
-- Solução no Frontend Mentor: [Add solution URL here](https://your-solution-url.com)
+- Solução no Frontend Mentor: [https://www.frontendmentor.io/solutions/age-calculator-app-solution-9xlsOsFfUE](https://www.frontendmentor.io/solutions/age-calculator-app-solution-9xlsOsFfUE)
 - Site: [https://marcelosarinho.github.io/frontend-mentor-age-calculator-app/](https://marcelosarinho.github.io/frontend-mentor-age-calculator-app/)
 
 ## Meu processo
 
-No processo para fazer esse projeto, tive que procurar certas referências na documentação do MDN e artigos.
+No processo para fazer esse projeto, tive que procurar certas referências na documentação do MDN Web Docs e artigos.
 
 ### Construído com
 
