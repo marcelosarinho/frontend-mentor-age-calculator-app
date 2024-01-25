@@ -18,7 +18,7 @@ html {
 body {
   background: var(--white);
   font-family: "Poppins", sans-serif;
-  margin: 4rem 14px;
+  margin: 4rem 0.875rem;
   padding: 2.875rem 1.5rem;
   border-radius: 20px 20px 100px 20px;
 }
@@ -33,7 +33,7 @@ form > div > label {
   color: var(--smokey-grey);
   text-transform: uppercase;
   letter-spacing: 4px;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 form > div {
@@ -52,8 +52,8 @@ label.error {
 }
 
 input {
-  padding: 20px;
-  font-size: 20px;
+  padding: 1.25rem;
+  font-size: 1.25rem;
   font-weight: bold;
   border: 1px var(--light-grey) solid;
   border-radius: 8px;
@@ -71,8 +71,8 @@ input:focus {
 }
 
 p {
-  margin: 8px 0 0 0;
-  font-size: 14px;
+  margin: 0.5rem 0 0 0;
+  font-size: 0.875rem;
   font-style: italic;
   font-weight: 500;
   color: var(--light-red);
@@ -81,7 +81,7 @@ p {
 .separator-container {
   display: flex;
   align-items: center;
-  margin: 30px 0;
+  margin: 1.875rem 0;
 }
 
 .separator-container .separator {
@@ -102,7 +102,7 @@ button {
   background: var(--purple);
   border: none;
   border-radius: 100%;
-  padding: 15px;
+  padding: 1rem;
   z-index: 999;
 }
 
@@ -117,29 +117,65 @@ button:hover {
 }
 
 img {
-  width: 25px;
+  width: 1.625rem;
 }
 
 section {
   font-weight: bolder;
   font-style: italic;
-  font-size: 40px;
+  font-size: 2.5rem;
+}
+
+section :nth-child(1), section :nth-child(2) {
+  margin-bottom: -0.75rem;
+}
+
+section span {
+  margin-right: -0.125rem;
 }
 
 @media (min-width: 321px) {
   section {
-    font-size: 48px;
+    font-size: 3rem;
+  }
+
+  section :nth-child(1), section :nth-child(2) {
+    margin-bottom: -1rem;
+  }
+
+  section span {
+    margin-right: -0.25rem;
   }
 
   button {
-    padding: 20px;
+    padding: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 376px) {
+  section {
+    font-size: 3.25rem;
+  }
+}
+@media screen and (min-width: 426px) {
+  section {
+    font-size: 3.75rem;
+  }
+
+  section :nth-child(1), section :nth-child(2) {
+    margin-bottom: -1.25rem;
+  }
+
+  section span {
+    margin-right: -0.5rem;
   }
 }
 
 @media (min-width: 769px) {
   body {
     width: 60%;
-    padding: 2.875rem 2.75rem;
+    padding: 3.375rem 3.25rem;
+    border-radius: 20px 20px 200px 20px;
   }
 
   .separator-container {
@@ -158,19 +194,42 @@ section {
     order: 2;
   }
 
+  img {
+    width: 2.5rem;
+  }
+
   button {
-    padding: 20px;
+    padding: 1.5rem;
+  }
+
+  section div {
+    height: auto;
   }
 
   input {
-    padding: 15px;
+    padding: 1.25rem;
+    font-size: 1.5rem;
   }
 
   section {
-    font-size: 80px;
+    font-size: 5.25rem;
+  }
+
+  section :nth-child(1), section :nth-child(2) {
+    margin-bottom: -2rem;
   }
 
   form {
     grid-template-columns: repeat(3, 25%);
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  form {
+    column-gap: 2rem;
+  }
+
+  section {
+    font-size: 5.5rem;
   }
 }
