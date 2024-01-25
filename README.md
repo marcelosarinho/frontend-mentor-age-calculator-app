@@ -1,11 +1,10 @@
 # Frontend Mentor - Solução do Age calculator app
 
--- EN
-This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
--- PT/BR
-
 Essa é uma solução para o [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Desafios do Frontend Mentor te ajudam a melhorar suas habilidades de programação, construindo projetos realistas.
+
+----------------------------------------------------------------------------------
+
+This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Tabela de conteúdos
 
