@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <form id="calculate" onsubmit="computeAge(event)">
+        <div id="day-div">
+          <label for="day">Day</label>
+          <input
+            type="text"
+            maxlength="2"
+            id="day"
+            name="day"
+            placeholder="DD"
+          />
+        </div>
+        <div id="month-div">
+          <label for="month">Month</label>
+          <input
+            type="text"
+            maxlength="2"
+            id="month"
+            name="month"
+            placeholder="MM"
+          />
+        </div>
+        <div id="year-div">
+          <label for="year">Year</label>
+          <input
+            type="text"
+            maxlength="4"
+            id="year"
+            name="year"
+            placeholder="YYYY"
+          />
+        </div>
+      </form>
+
+      <div class="separator-container">
+        <div class="separator"></div>
+        <button type="submit" form="calculate">
+          <img src="./assets/images/icon-arrow.svg" alt="Arrow" />
+        </button>
+        <div class="separator"></div>
+      </div>
+
+      <section>
+        <div><span id="years" class="result">--</span> years</div>
+        <div><span id="months" class="result">--</span> months</div>
+        <div><span id="days" class="result">--</span> days</div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+
+  <!-- <footer class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      >Frontend Mentor</a
+    >. Coded by <a href="#">Marcelo Sarinho</a>.
+  </footer> -->
+</html>

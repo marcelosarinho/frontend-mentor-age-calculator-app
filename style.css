@@ -1,0 +1,177 @@
+:root {
+  --purple: hsl(259, 100%, 65%);
+  --light-red: hsl(0, 100%, 67%);
+  --white: hsl(0, 0%, 100%);
+  --off-white: hsl(0, 0%, 94%);
+  --light-grey: hsl(0, 0%, 86%);
+  --smokey-grey: hsl(0, 1%, 44%);
+  --off-black: hsl(0, 0%, 8%);
+}
+
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--off-white);
+}
+
+body {
+  background: var(--white);
+  font-family: "Poppins", sans-serif;
+  margin: 4rem 14px;
+  padding: 2.875rem 1.5rem;
+  border-radius: 20px 20px 100px 20px;
+  height: 100vh;
+}
+
+form {
+  display: grid;
+  column-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+form > div > label {
+  color: var(--smokey-grey);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 12px;
+}
+
+form > div {
+  width: auto;
+}
+
+label {
+  font-weight: 700;
+  display: block;
+  width: fit-content;
+  margin-bottom: 0.4rem;
+}
+
+label.error {
+  color: var(--light-red);
+}
+
+input {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px var(--light-grey) solid;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input.error {
+  outline: 1px solid var(--light-red);
+}
+
+input:focus {
+  outline: 1px solid var(--purple);
+  caret-color: var(--purple);
+}
+
+p {
+  margin: 8px 0 0 0;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  color: var(--light-red);
+}
+
+.separator-container {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.separator-container .separator {
+  height: 2px;
+  background-color: var(--off-white);
+  flex: 1;
+}
+
+main {
+  font-weight: 700;
+}
+
+.result {
+  color: var(--purple);
+}
+
+button {
+  background: var(--purple);
+  border: none;
+  border-radius: 100%;
+  padding: 15px;
+  z-index: 999;
+}
+
+button:focus-visible {
+  outline: 2px solid var(--off-black);
+}
+
+button:hover {
+  background: var(--off-black);
+  transition: all 0.15s;
+  cursor: pointer;
+}
+
+img {
+  width: 25px;
+}
+
+section {
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 40px;
+}
+
+@media (min-width: 321px) {
+  section {
+    font-size: 48px;
+  }
+
+  button {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 769px) {
+  body {
+    width: 60%;
+    padding: 2.875rem 2.75rem;
+  }
+
+  .separator-container {
+    margin: 0;
+  }
+
+  .separator-container :nth-child(1) {
+    order: 1;
+  }
+
+  .separator-container :nth-child(2) {
+    order: 3;
+  }
+
+  .separator-container :nth-child(3) {
+    order: 2;
+  }
+
+  button {
+    padding: 20px;
+  }
+
+  input {
+    padding: 15px;
+  }
+
+  section {
+    font-size: 80px;
+  }
+
+  form {
+    grid-template-columns: repeat(3, 25%);
+  }
+}
