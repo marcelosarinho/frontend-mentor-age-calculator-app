@@ -52,7 +52,7 @@ Usuários devem ser capazes de:
 
 No processo para fazer esse projeto, tive que procurar certas referências na documentação do MDN Web Docs e artigos.
 
-### Construído com
+### Desenvolvido com
 
 - HTML5
 - CSS3
@@ -74,7 +74,7 @@ Para o futuro, gostaria de dominar flexbox e grid completamente, em nível avan�
 - [Focus or focus visible? A guide to make your focus state accessible](https://mayashavin.com/articles/focus-vs-focus-visible-for-accessibility) - Esse artigo me ajudou a entender a diferença entre :focus e :focus-visible, além de alguns conceitos de HTML.
 - [Date - JavaScript - MDN Web Docs - Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) - Essa documentação do MDN Web Docs me ajudou a aprofundar mais no objeto Date do JavaScript.
 
-## Author
+## Autor
 
 - Frontend Mentor - [@marcelosarinho](https://www.frontendmentor.io/profile/yourusername)
 - LinkedIn - [Marcelo Sarinho](www.linkedin.com/in/marcelo-sarinho)
